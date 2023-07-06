@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #1f2937;
+    padding: 80px;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.right-hero {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* INFO */
+
+.info {
+    padding: 80px;
+}
+
+.info h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info li {
+    max-width: 145px;
+}
+
+.info img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 130px;
+}
+
+/* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    max-width: 900px;
+}
+
+.quote .author {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* LAST */
+
+.action-time {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 50px 80px;
+    margin: 80px;
+    display: flex;
+    gap: 200px;
+    max-width: 1300px;
+}
+
+.last h6 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.last p {
+    margin-top: 8px;
+}
+
+.last button {
+    border: #f9faf8 solid 2px;
+    align-self: center;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+}
